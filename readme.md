@@ -4,8 +4,6 @@
 
 [![Build Status](https://travis-ci.org/sotojuan/redux-ava.svg?branch=master)](https://travis-ci.org/sotojuan/redux-ava)
 
-**Note:** Tests that use this module and fail will not have [`power-assert`](https://github.com/power-assert-js/power-assert) enhancements. This is a current AVA issue, but it'll be fixed in the future.
-
 ## Install
 
 ```
