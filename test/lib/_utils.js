@@ -18,7 +18,21 @@ const testSpy = () => ({
   }
 })
 
+function reducer (state, action) {
+  state = state || {}
+
+  switch (action.type) {
+    case testAction:
+      const name = action.name
+      const age = action.age
+      return Object.assign({}, state, { name, age })
+    default:
+      return state
+  }
+}
+
 module.exports = {
+  reducer,
   testAction,
   actionCreator,
   testSpy
