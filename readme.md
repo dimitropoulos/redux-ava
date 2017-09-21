@@ -50,7 +50,7 @@ The reducer you want to test.
 
 Type: `object`
 
-The state you expect before the reducer is ran.
+The state you expect before the reducer is run.
 
 #### action
 
@@ -62,7 +62,7 @@ The action you want to give to the reducer. This is different from `actionTest` 
 
 Type: `object`
 
-The state you expect after the reducer is ran.
+The state you expect after the reducer is run.
 
 #### description
 
